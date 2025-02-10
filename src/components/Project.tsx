@@ -2,6 +2,7 @@ import React from "react";
 import mock01 from '../assets/images/mock01.png';
 import mock02 from '../assets/images/mock02.png';
 import mock03 from '../assets/images/mock03.png';
+import mock04 from '../assets/images/mock04.png';
 import '../assets/styles/Project.scss';
 
 function Project() {
@@ -23,6 +24,11 @@ function Project() {
                 <a href="https://github.com/Bryan-Asanovic/Weerbericht" target="_blank" rel="noreferrer"><img src={mock01} className="zoom" alt="thumbnail" width="100%"/></a>
                 <a href="https://github.com/Bryan-Asanovic/Weerbericht" target="_blank" rel="noreferrer"><h2>Weather application</h2></a>
                 <p>Developed a Weather application using C# Razor pages, which allows users to view current weather conditions, forecasts, and historical data for various locations. The application integrates with external weather APIs to provide accurate and up-to-date information.</p>
+            </div>
+            <div className="project">
+                <a href="https://github.com/Bryan-Asanovic/Movie_Searcher" target="_blank" rel="noreferrer"><img src={mock04} className="zoom" alt="thumbnail" width="100%"/></a>
+                <a href="https://github.com/Bryan-Asanovic/Movie_Searcher" target="_blank" rel="noreferrer"><h2>Movie Search application</h2></a>
+                <p>Developed a Movie search application using ReactJs, which allows users to view their searched movies. You can view the reviews, release date, cast and more information. The application integrates with external movie API to provide accurate and up-to-date information.</p>
             </div>
         </div>
     </div>

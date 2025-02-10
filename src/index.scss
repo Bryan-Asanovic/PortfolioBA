@@ -6,6 +6,9 @@ body {
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   font-size: 1.1rem !important;
+  &::-webkit-scrollbar {
+      display: none; // Verbergt de scrollbar in Chrome, Safari en Edge
+    }
 }
 
 code {
